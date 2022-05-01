@@ -14,8 +14,7 @@ from dotenv import load_dotenv
 class DefaultConfig:
     """ Bot Configuration """
     def __init__(self):
-        self.load_dotenv()
-
+        load_dotenv()
         # Add These details for local exacution
     #    PORT = 3978 # used in localhost
     #    APP_ID = os.environ.get("MicrosoftAppId", "") # APP_ID = os.environ.get("MicrosoftAppId", "47a323f3-a682-469f-b0e5-b661fb64efd1")
