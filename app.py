@@ -44,7 +44,10 @@ CONFIG = DefaultConfig()
 # Create adapter.
 # See https://aka.ms/about-bot-adapter to learn more about how bots work.
 #SETTINGS = BotFrameworkAdapterSettings(CONFIG.APP_ID, CONFIG.APP_PASSWORD)
-SETTINGS = BotFrameworkAdapterSettings(CONFIG.APP_ID, CONFIG.APP_PASSWORD, CONFIG.APP_TYPE)
+# First & correct
+#SETTINGS = BotFrameworkAdapterSettings(CONFIG.APP_ID, CONFIG.APP_PASSWORD, CONFIG.APP_TYPE)
+SETTINGS = BotFrameworkAdapterSettings("3c699fe5-4776-47a0-93ca-baa0258c7958", "sjD8Q~pzxGQ3FQHil2TLW9Fg6Gsg.zRW2vA.Ydqs")
+
 
 # Create MemoryStorage, UserState and ConversationState
 MEMORY = MemoryStorage()
