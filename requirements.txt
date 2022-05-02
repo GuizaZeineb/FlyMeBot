@@ -13,3 +13,4 @@ azure-cognitiveservices-language-luis>=0.2.0
 msrest>=0.6.10
 aiohttp
 python-dotenv
+botbuilder-testing
