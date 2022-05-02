@@ -48,6 +48,7 @@ jobs:
       - name: Test with pytest
         run: |
           pytest ./tests.py
+          pytest ./test_dialog_test_client.py
           
   deploy:
     runs-on: ubuntu-latest
