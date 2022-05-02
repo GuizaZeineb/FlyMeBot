@@ -26,12 +26,13 @@ from botbuilder.testing import DialogTestClient, DialogTestLogger
 
 from dialogs import BookingDialog, MainDialog
 
-#Config = DefaultConfig()
 #mainDialog = MainDialog()
 
  ################################################
 #       Test de fichiers de  configuration      #
 ################################################
+
+Config = DefaultConfig()
 
 def test_luis_authoring_key():
     assert Config.LUIS_API_KEY != ""
